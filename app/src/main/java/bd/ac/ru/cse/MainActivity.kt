@@ -129,7 +129,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getJsonData(lat: String, long: String) {
-        val API_KEY = "c06dfeeac728a66e85949819a49c36e9" // use your own api_key
+        val API_KEY = "c06dfeeac728a66e85949819a49c36e9"
         val queue = Volley.newRequestQueue(this)
         val cityName = getCityName(lat.toDouble(), long.toDouble())
 
